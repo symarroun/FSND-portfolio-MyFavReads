@@ -6,7 +6,7 @@ The project provided me with a Mockup Design in a PDF and I had to code the desi
 
 ## Screenshot of The Webpage
 
-![Image of MyPage](https://github.com/symarroun/FSND-portfolio-MyFavReads/img/screenshot-MyPage.png)
+![Screenshot of MyPage](/img/screenshot-MyPage.png "Screenshot of My Page")
 
 
 ## The Framework

@@ -1,0 +1,98 @@
+
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*Tab Target Sizing
+*/
+nav, a, button {
+	min-width: 48px;
+	min-height: 48px;
+}
+
+body {
+	font-family: 'Lato', sans-serif;
+	color: #747704;
+	font-weight: 300;
+}
+
+h2 {
+	margin-bottom: 20px;
+}
+
+hr {
+	border-width: 3px;
+}
+
+
+.text-muted {
+	color: #BCBBBB;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-super {
+	font-size: 60px;
+}
+
+.title-logo {
+	max-width: 100px;
+	max-height: 100px;
+	margin-top: 20px;
+}
+
+.modal-heading {
+	font-size: 25px;
+	margin-top: 5px;
+}
+
+.book-cover {
+	height: 250px;
+	margin: auto;
+}
+
+.feature-cover {
+	margin: auto;
+}
+
+.amazon {
+	margin-bottom: 20px;
+}
+
+
+/* Media Queries for Breakpoints */
+
+@media only screen and (max-width: 991px) {
+	.book-cover {
+	height: 500px;
+	margin: auto;
+	}
+}
+
+@media only screen and (max-width: 550px) {
+	.book-cover {
+	height: auto;
+	margin: auto;
+	width: auto;
+	}
+	.title-super {
+	font-size: 45px;
+	}
+	h3 {
+		font-size: 20px;
+	}
+}
+
+
+/*For Testing The Grid of the page, uncomment below*/
+/*
+* {
+	border: 1px solid red !important;
+}
+*/

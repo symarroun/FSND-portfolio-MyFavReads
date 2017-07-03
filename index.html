@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+ 	<!-- legacy document mode: display image in edge mode for Internet Explorer -->
+
+	<!-- IE Edge Meta Tag -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+	<!-- Viewport -->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Normalize -->
+  <link href="css/normalize.css" rel="stylesheet">
+
+	<!-- Minified CSS -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+
+ 	<!-- My CSS Styles (Note: must be ordered after Boostrap CSS) -->
+	<link href="css/main.css" rel="stylesheet">
+
+	<!-- Linked Fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+
+	<!-- Webpage Title -->
+	<title>Portfolio | Safi Marroun</title>
+</head>
+
+<body>
+
+	<!-- The major structural sections are used uitlizing HTML semantic elements -->
+	<!-- The whole page container begins here-->
+    <section class="container">
+      <header class="row">
+        <div class="col-md-6">
+            <img src="img/globe-2.png" alt="Logo" class="title-logo">
+        </div>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="text-thin title-super">SAFI MARROUN</h1>
+          <h3>Full Stack Web Reader</h3>
+        </div>
+      </header>
+      <div class="container">
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive feature-cover" src="img/cover-everything-is-connected.jpg" alt="Quote by Leo Da Vinci about Connectedness">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="text-muted">My Favorite Reads</h2>
+        </div>
+      </div>
+      <!-- Book Covers Begin Here -->
+      <div class="row text-center">
+        <article class="col-md-4">
+          <img class="img-responsive book-cover" src="img/book-steal-ideas-like-an-artist3.jpg" alt ="Steal Ideas Like an Artist Book Cover" data-toggle="modal" data-target="#book1">
+          <h3>Steal Ideas Like An Artist</h3>
+          <p class="amazon"><a href="https://goo.gl/toxpLM">On Amazon</a></p>
+        </article>
+        <article class="col-md-4">
+          <img class="img-responsive book-cover" src="img/book-how-to-be-interesting3.jpeg" alt="How to Be Interesting Book Cover" data-toggle="modal" data-target="#book2">
+          <h3>How to Be Interesting</h3>
+          <p class="amazon"><a href="https://goo.gl/82x7uU">On Amazon</a></p>
+        </article>
+        <article class="col-md-4">
+          <img class="img-responsive book-cover" src="img/book-how-business-works3.jpg" alt="How Business Works Book Cover" data-toggle="modal" data-target="#book3">
+          <h3>How Business Works</h3>
+          <p class="amazon"><a href="https://goo.gl/yDQtww">On Amazon</a></p>
+        </article>
+      </div>
+    </section>
+
+	<!-- FOOTER SECTION -->
+	<!-- jQuery --> <!-- update to latest version, if needed -->
+	<script type="text/JavaScript" src="framework/js/jquery-3.2.1.min.js"></script>
+
+	<!-- Minified JavaScript -->
+	<script type="text/JavaScript" src="framework/js/bootstrap.min.js"></script>
+
+	<!-- My JavaScript File (Note: must be ordered after Boostrap JS) -->
+	<script> src="framework/js/main.js"</script>
+
+
+  <!-- Modal of Book1-->
+  <div class="modal fade" id="book1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabel">Book: Steal Ideas Like An Artist</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="img/book-steal-ideas-like-an-artist3.jpg" alt ="Steal Ideas Like an Artist Book Cover">
+                  <p class="modal-heading">Brief About The Book:</p>
+                  <p>You don’t need to be a genius, you just need to be yourself. That’s the message from Austin Kleon, a young writer and artist who knows that creativity is everywhere, creativity is for everyone. A manifesto for the digital age, Steal Like an Artist is a guide whose positive message, graphic look and illustrations, exercises, and examples will put readers directly in touch with their artistic side.</p>
+                  <p>When Mr. Kleon was asked to address college students in upstate New York, he shaped his speech around the ten things he wished someone had told him when he was starting out. The talk went viral, and its author dug deeper into his own ideas to create Steal Like an Artist, the book. The result is inspiring, hip, original, practical, and entertaining. And filled with new truths about creativity: Nothing is original, so embrace influence, collect ideas, and remix and re-imagine to discover your own path. Follow your interests wherever they take you. Stay smart, stay out of debt, and risk being boring—the creative you will need to make room to be wild and daring in your imagination.</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+  <!-- Modal of Book2-->
+  <div class="modal fade" id="book2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabe2">Book: Steal Ideas Like An Artist</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="img/book-how-to-be-interesting3.jpeg" alt="How to Be Interesting Book Cover">
+                  <p class="modal-heading">Brief About The Book:</p>
+                  <p>You want to leave a mark, not a blemish. Be a hero, not a spectator. You want to be interesting. (Who doesn’t?) But sometimes it takes a nudge, a wake-up call, an intervention!―and a little help. This is where Jessica Hagy comes in. A writer and illustrator of great economy, charm, and insight, she’s created How to Be Interesting, a uniquely inspirational how-to that combines fresh and pithy lessons with deceptively simple diagrams and charts.</p>
+                  <p>Ms. Hagy started on Forbes.com, where she’s a weekly blogger, by creating a “How to Be Interesting” post that went viral, attracting 1.4 million viewers so far, with tens of thousands of them liking, linking, and tweeting the article. Now she’s deeply explored the ideas that resonated with so many readers to create this small and quirky book with a large and universal message. It’s a book about exploring: Talk to strangers. About taking chances: Expose yourself to ridicule, to risk, to wild ideas. About being childlike, not childish: Remember how amazing the world was before you learned to be cynical. About being open: Never take in the welcome mat. About breaking routine: Take daily vaca- tions . . . if only for a few minutes. About taking ownership: Whatever you’re doing, enjoy it, embrace it, master it as well as you can. And about growing a pair: If you’re not courageous, you’re going to be hanging around the water cooler, talking about the guy that actually is.</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+    <!-- Modal of Book3-->
+  <div class="modal fade" id="book3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+      <div class="modal-dialog">
+          <div class="modal-content">
+              <div class="modal-header">
+                  <h4 class="modal-title" id="myModalLabe3">Book: Steal Ideas Like An Artist</h4>
+              </div>
+              <div class="modal-body">
+                  <img class="img-responsive" src="img/book-how-business-works3.jpg" alt="How Business Works Book Cover">
+                  <p class="modal-heading">Brief About The Book:</p>
+                  <p>Understand the sometimes-confusing business world with How Business Works, a user-friendly guide to understanding business jargon and corporate structure. Whether you're looking to get ahead at work, want to start your own business, or just want to understand the business world better, How Business Works is a comprehensive guide that makes even difficult business concepts easy to understand.</p>
+                  <p>Learn everything you need to know without getting bogged down by boring textbooks. How Business Works offers helpful diagrams, infographics, and bite-size, step-by-step information, all in jargon-free text that's a pleasure to read. From basic business principles, like how the Board of Directors is structured, to more complicated financial concepts, like how to calculate depreciation, How Business Works is a great first-stop for business students and middle managers who want to understand business without the MBA</p>
+              </div>
+              <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+              </div>
+          </div>
+      </div>
+  </div>
+
+</body>
+</html>
